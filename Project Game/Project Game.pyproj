@@ -24,6 +24,15 @@
   <ItemGroup>
     <Compile Include="Project_Game.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\board.jpg" />
+    <Content Include="Images\board.png" />
+    <Content Include="Images\circle.jpg" />
+    <Content Include="Images\test.PNG" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
