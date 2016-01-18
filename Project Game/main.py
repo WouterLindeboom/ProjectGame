@@ -1,6 +1,5 @@
 import sys
 import pygame
-import Tile
 
 pygame.init()
 
