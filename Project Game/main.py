@@ -7,6 +7,7 @@ screensize = width, height = 1000, 600
 circle = pygame.transform.scale(pygame.image.load('Images/circle.jpg'), (30,30))
 board = pygame.transform.scale(pygame.image.load('Images/board.png'), (600,600))
 
+startmenu = pygame.display
 screen = pygame.display.set_mode(screensize)
 #screen.fill(black)
 
